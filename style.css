@@ -1,44 +1,30 @@
-.heading {
-    text-align: center;
-    background-color: blanchedalmond;
-    padding: 5px;
-}
-.topnav {
-    background-color: black;
-    width:inherit;
-    text-align: center;
-    text-size-adjust: 12px;
-    padding: 10px;
+body {
+font-family: 'Lato', sans-serif;
 }
 
-/* Style the tab buttons */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 33.3%;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tablink:hover {
-    background-color: #777;
-  }
-  
-  /* Set default styles for tab content */
-  .tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
-    text-align: center;
-  }
-  
-  /* Style each tab content individually */
-  #oundation {background-color:red;}
-  #founder {background-color:green;}
-  #directors {background-color:blue;}
- 
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+.s {
+  display: flex;
+  height: 450px;
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vm {
+  justify-content: center;
+  text-align: center;
+}
+  body {
+font-family: 'Lato', sans-serif;
+}
